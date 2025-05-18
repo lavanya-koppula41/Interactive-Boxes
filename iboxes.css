@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #00704a;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .box.active {
+    border-color: #00704a;
+    background-color: #f1f9f6;
+  }
+  
+  
+  .discount-tag {
+    position: absolute;
+    top: 28px; /* push below 'Most Popular' */
+    right: 12px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    z-index: 1;
+  }
+  
+  .header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+  
+  .header input[type="radio"] {
+    margin-top: 3px;
+  }
+  
+  .title-price {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  
+  .title-price .title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .title-price .price {
+    font-size: 13px;
+    color: #333;
+  }
+  .price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .current-price {
+    font-weight: bold;
+  }
+  
+  .original-price {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+  }
+  
+  
+  
+  .popular {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: #00704a;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  
+  .content {
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .row label {
+    width: 25px;
+  }
+  
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .content .heading-row {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .content .column-heading {
+    width: 50px; 
+  }
+  
+  .shipping {
+    color: #00704a;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .add-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: #00704a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align:right;
+    font-style: italic;
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
